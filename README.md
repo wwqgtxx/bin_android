@@ -40,7 +40,7 @@
 
 ## Target
 
-*`Android 5.1`** (`ARMv6`, 32bit)
+**`Android 5.1`** (`ARMv6`, 32bit)
 
 (`11b-21-arm-linux-androideabi-4.9`, `PIE`)
 
