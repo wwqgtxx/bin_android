@@ -1,0 +1,11 @@
+#!/home/d/data3/sceext/_/o/r/bin_android/py35/python3-android/build/11b-21-arm-linux-androideabi-4.9/bin/python3.5
+if __name__ == '__main__':
+    import sys
+    rc = 1
+    try:
+        import venv
+        venv.main()
+        rc = 0
+    except Exception as e:
+        print('Error: %s' % e, file=sys.stderr)
+    sys.exit(rc)

@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/home/d/data3/sceext/_/o/r/bin_android/py35/python3-android/build/11b-21-arm-linux-androideabi-4.9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Python library
+Requires: 
+Version: 3.5
+Libs.private: -ldl 
+Libs: -L${libdir} -lpython3.5m
+Cflags: -I${includedir}/python3.5m
